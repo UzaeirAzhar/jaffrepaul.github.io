@@ -1,4 +1,4 @@
-name: Deploy Uzair Khan Resume with GitHub Pages dependencies preinstalled
+name: Deploy Resume with GitHub Pages
 
 on:
   push:
