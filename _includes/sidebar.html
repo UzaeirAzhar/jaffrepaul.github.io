@@ -43,32 +43,36 @@
 
             {% if site.linkedin %}
             <li class="linkedin">
-                <i class="fa fa-linkedin"></i><a href="https://in.linkedin.com/in/{{ site.linkedin }}"
-                    target="_blank">linkedin.com/in/{{ site.linkedin }}</a>
+                <i class="fa fa-linkedin"></i><a href="https://in.linkedin.com/in/{{ site.linkedin }}" target="_blank"
+                    rel="noopener noreferrer">linkedin.com/in/{{ site.linkedin }}</a>
             </li>
             {% else %}
             <li class="linkedin">
                 <i class="fa fa-linkedin"></i><a href="https://in.linkedin.com/in/sharath-kumar-87669956"
-                    target="_blank">linkedin.com/in/sharathdt</a>
+                    target="_blank" rel="noopener noreferrer">linkedin.com/in/sharathdt</a>
             </li>
             {% endif %} {% if site.github %}
             <li class="github">
-                <i class="fa fa-github"></i><a href="http://github.com/{{ site.github }}" target="_blank">github.com/{{
+                <i class="fa fa-github"></i><a href="http://github.com/{{ site.github }}" target="_blank"
+                    rel="noopener noreferrer">github.com/{{
                     site.github }}</a>
             </li>
             {% else %}
             <li class="github">
-                <i class="fa fa-github"></i><a href="http://github.com/sharu725" target="_blank">github.com/sharu725</a>
+                <i class="fa fa-github"></i><a href="http://github.com/sharu725" target="_blank"
+                    rel="noopener noreferrer">github.com/sharu725</a>
             </li>
             {% endif %} {% if site.twitter %}
             <li class="twitter">
-                <i class="fa fa-twitter"></i><a href="https://twitter.com/{{ site.twitter }}" target="_blank">{{
+                <i class="fa fa-twitter"></i><a href="https://twitter.com/{{ site.twitter }}" target="_blank"
+                    rel="noopener noreferrer">{{
                     site.twitter
                     }}</a>
             </li>
             {% else %}
             <li class="twitter">
-                <i class="fa fa-twitter"></i><a href="https://twitter.com/@webjeda" target="_blank">@webjeda</a>
+                <i class="fa fa-twitter"></i><a href="https://twitter.com/@webjeda" target="_blank"
+                    rel="noopener noreferrer">@webjeda</a>
             </li>
             {% endif %}
         </ul>
