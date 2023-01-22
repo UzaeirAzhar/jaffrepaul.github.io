@@ -35,11 +35,13 @@
             </li>
             {% endif %}
 
-            <!-- {% if site.website %}
-                    <li class="website"><i class="fa fa-globe"></i><a href="http://{{site.website}}" target="_blank">{{site.website}}</a></li>
-                    {% else %}
-                    <li class="website"><i class="fa fa-globe"></i><a href="http://blog.webjeda.com" target="_blank">blog.webjeda.com</a></li>
-                    {% endif %} -->
+            {% if site.website %}
+            <li class="website"><i class="fa fa-globe"></i><a href="http://{{site.website}}"
+                    target="_blank" rel="noopener noreferrer">{{site.website}}</a></li>
+            {% else %}
+            <li class="website"><i class="fa fa-globe"></i><a href="http://blog.webjeda.com"
+                    target="_blank" rel="noopener noreferrer">blog.webjeda.com</a></li>
+            {% endif %}
 
             {% if site.linkedin %}
             <li class="linkedin">
