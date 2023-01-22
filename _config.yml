@@ -12,7 +12,7 @@ style: styles-4
 #Profile information
 name: Uzair Khan
 tagline: Full Stack Software Engineer
-pic: paul_profile.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+pic: #paul_profile.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
 #sidebar links
 email: uzaeir.khan@yahoo.com
@@ -23,5 +23,5 @@ github: jaffrepaul
 twitter: '@pauljaffre'
 
 # Tracker
-analytics: UA-51450114-1
+#analytics: UA-51450114-1
 #Update all the sections by editing the files inside _includes folder.
