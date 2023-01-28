@@ -2,7 +2,7 @@ name: Deploy Resume with GitHub Pages
 
 on:
   push:
-    branches: ["master"]
+    branches: ["main"]
 
 permissions:
   contents: read
