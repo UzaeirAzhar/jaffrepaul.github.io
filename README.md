@@ -8,4 +8,4 @@ Work History
 
 [![GitHub branches](https://badgen.net/github/branches/UzaeirAzhar/uzaeirazhar.github.io)](https://github.com/UzaeirAzhar/uzaeirazhar.github.io/)
 
-[![GitHub commits](https://img.shields.io/github/commits-since/UzaeirAzhar/uzaeirazhar.github.io/v1.0.0.svg)](https://GitHub.com/UzaeirAzhar/uzaeirazhar.github.io/commit/)
+[![GitHub commits](https://badgen.net/github/commits/UzaeirAzhar/uzaeirazhar.github.io)](https://GitHub.com/UzaeirAzhar/uzaeirazhar.github.io/commit/)
