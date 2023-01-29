@@ -1,4 +1,4 @@
-name: Deploy Resume with GitHub Pages
+name: CI
 
 on:
   push:
