@@ -7,7 +7,7 @@ jQuery(document).ready(function ($) {
 
       $(this).animate(
         {
-          width: itemWidth
+          width: 10
         }
       )
     })
