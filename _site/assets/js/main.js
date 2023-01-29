@@ -9,7 +9,7 @@ jQuery(document).ready(function ($) {
         {
           width: itemWidth
         },
-        80000
+        800
       )
     })
   })
