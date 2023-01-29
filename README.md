@@ -1,6 +1,6 @@
 # uzaeirazhar.github.io
 
-Work History
+Test Branch Badge
 
 <!-- ![sample run](https://github.com/UzaeirAzhar/uzaeirazhar.github.io/blob/master/.github/workflows/automatic-trigger.yml?event=push) -->
 
