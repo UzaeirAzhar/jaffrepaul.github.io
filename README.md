@@ -6,4 +6,4 @@ Work History
 
 ![test](https://github.com/UzaeirAzhar/uzaeirazhar.github.io/actions/workflows/automatic-trigger.yml/badge.svg?event=push)
 
-[![GitHub branches](https://badgen.net/github/branches/Naereen/Strapdown.js)](https://github.com/Naereen/Strapdown.js/)
+[![GitHub branches](https://badgen.net/github/branches/Naereen/Strapdown.js)](https://github.com/UzaeirAzhar/uzaeirazhar.github.io/)
