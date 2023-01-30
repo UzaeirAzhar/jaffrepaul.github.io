@@ -46,7 +46,7 @@ a:focus {
 }
 p {
   line-height: 1.5;
-  justify-content: stretch;
+  justify-content: space-between;
 }
 span {
   font-weight: 500;
