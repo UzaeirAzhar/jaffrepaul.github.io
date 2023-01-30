@@ -3,6 +3,7 @@ jQuery(document).ready(function ($) {
   $(window).on('load', function () {
     $('.level-bar-inner').each(function () {
       let itemWidth = $(this).data('level')
+      console.log(itemWidth)
       $('.level-bar-inner').css('width', itemWidth)
       /* $(this).animate(
         {
