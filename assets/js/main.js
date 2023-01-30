@@ -2,14 +2,14 @@ jQuery(document).ready(function ($) {
   $('.level-bar-inner').css('width', '60%')
   $(window).on('load', function () {
     $('.level-bar-inner').each(function () {
-      let itemWidth = $(this).data('level')
+      let itemWidth = $(this).attr('level')
       console.log(itemWidth)
       //$('.level-bar-inner').css('width', itemWidth)
-      /* $(this).animate(
+      $(this).animate(
         {
           width: itemWidth
         }
-      ) */
+      )
     })
   })
 })
