@@ -1,5 +1,5 @@
 jQuery(document).ready(function ($) {
-  $('.level-bar-inner').css('width', '60')
+  $('.level-bar-inner').css('width', '60%')
   $(window).on('load', function () {
     $('.level-bar-inner').each(function () {
       let itemWidth = $(this).data('level')
