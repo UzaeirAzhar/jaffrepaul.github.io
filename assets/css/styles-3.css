@@ -46,7 +46,7 @@ a:focus {
 }
 p {
   line-height: 1.5;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 span {
   font-weight: 500;
