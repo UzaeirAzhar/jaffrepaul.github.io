@@ -5,3 +5,5 @@
 ## About Me
 
 Hi, I'm Uzair Khan and here its my personal website 🙂. By profession, I'm Test Automation Engineer and would love to work in open source project. Feel free to contact me if you want to work with me together 🚀
+
+I'm interested in anything related tools/framework to automated Web, API, Mobile apps. I would love to work on project which includes Performance Testing.
