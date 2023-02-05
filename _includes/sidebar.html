@@ -5,10 +5,10 @@
         <!--<img class="profile-img" src="{{ site.baseurl }}/assets/images/{% if site.pic %}{{
         site.pic
       }}{% else %}pprofile.jpg{% endif %}" alt="profile picture" /> -->
-        <h1 class="name">
+        <h1 class="name" data-testid="full-name">
             {% if site.name %}{{ site.name }}{% else %}Uzair Khan{% endif %}
         </h1>
-        <h3 class="tagline">
+        <h3 class="tagline" data-testid="job-designation">
             {% if site.tagline %}{{ site.tagline }}{% else %}Test Automation Engineer{%
             endif %}
         </h3>
