@@ -36,10 +36,11 @@
             {% endif %}
         -->
             {% if site.website %}
-            <li class="website"><i class="fa fa-globe"></i><a href="http://{{site.website}}" target="_blank"
-                    rel="noopener noreferrer">{{site.website}}</a></li>
+            <li class="website" data-testid="website-field"><i class="fa fa-globe"></i><a href="http://{{site.website}}"
+                    target="_blank" rel="noopener noreferrer">{{site.website}}</a></li>
             {% else %}
-            <li class="website"><i class="fa fa-globe"></i><a href="https://uzaeirazhar.github.io/" target="_blank"
+            <li class="website" data-testid="website-field"><i class="fa fa-globe"></i><a
+                    href="https://uzaeirazhar.github.io/" target="_blank"
                     rel="noopener noreferrer">uzaeirazhar.github.io/</a></li>
             {% endif %}
 
