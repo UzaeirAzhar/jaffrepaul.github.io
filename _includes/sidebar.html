@@ -45,12 +45,12 @@
             {% endif %}
 
             {% if site.linkedin %}
-            <li class="linkedin">
+            <li class="linkedin" data-testid="linkedin-field">
                 <i class="fa fa-linkedin"></i><a href="https://linkedin.com/in/{{ site.linkedin }}" target="_blank"
                     rel="noopener noreferrer">linkedin.com/in/{{ site.linkedin }}</a>
             </li>
             {% else %}
-            <li class="linkedin">
+            <li class="linkedin" data-testid="linkedin-field">
                 <i class="fa fa-linkedin"></i><a href="https://www.linkedin.com/in/uzaeir/" target="_blank"
                     rel="noopener noreferrer">linkedin.com/uzaeir/</a>
             </li>
