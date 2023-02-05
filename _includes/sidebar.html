@@ -16,13 +16,13 @@
     <!--//profile-container-->
 
     <div class="contact-container container-block">
-        <ul class="list-unstyled contact-list">
+        <ul class="list-unstyled contact-list" data-testid="contact-container">
             {% if site.email %}
-            <li class="email">
+            <li class="email" data-testid="email-field">
                 <i class="fa fa-envelope"></i><a href="mailto: {{ site.email }}">{{ site.email }}</a>
             </li>
             {% else %}
-            <li class="email">
+            <li class="email" data-testid="email-field">
                 <i class="fa fa-envelope"></i><a href="mailto:alan.doe@website.com">uzaeir.khan@yahoo.com</a>
             </li>
             {% endif %} <!--{% if site.phone %}
