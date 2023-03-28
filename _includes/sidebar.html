@@ -19,7 +19,7 @@
         <ul class="list-unstyled contact-list" data-testid="contact-container">
             {% if site.email %}
             <li class="email" data-testid="email-field">
-                <i class="fa fa-envelope"></i><a href="mailto: {{ site.email }}">{{ site.email }}</a>
+                <i class="fa fa-envelope"></i><a href="mailto: {{ site.email }}">{{ site.email_username }}</a>
             </li>
             {% else %}
             <li class="email" data-testid="email-field">
